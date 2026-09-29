@@ -21,10 +21,11 @@
     "extensions.ignoreRecommendations": true,
     "workbench.colorTheme": "Catppuccin Macchiato",
     "window.titleBarStyle": "custom",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
     "files.insertFinalNewline": true,
     "editor.formatOnSave": true,
+    // voglio aprire schede senza sostituire quella corrente
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     // tabs
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
