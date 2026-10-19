@@ -106,6 +106,7 @@
     "vim.handleKeys": {
         "<C-w>": false,
         "<C-p>": false,
+        "<C-h>": false, // per search-and-replace
         "<C-T>": false,
         "<C-Shift+T>": false
     },
