@@ -1,0 +1,19 @@
+
+{
+    "mlir.server_path": "/home/kevin/llvm-project/install/bin/mlir-lsp-server",
+
+    "mlir.pdll_server_path": "/home/kevin/llvm-project/install/bin/mlir-pdll-lsp-server",
+
+    // "mlir.tablegen_server_path": "/home/kevin/llvm-project/install/bin/tblgen-lsp-server",
+    "mlir.tablegen_server_path": "/home/kevin/llvm-project/.vscode/tblgen-lsp-wrapper.sh",
+
+    "mlir.tablegen_compilation_databases": [
+        "${workspaceFolder}/build/tablegen_compile_commands.yml"
+    ],
+
+    "mlir.pdll_compilation_databases": [
+        "${workspaceFolder}/build/pdll_compile_commands.yml"
+    ],
+
+    "mlir.onSettingsChanged": "restart"
+}
