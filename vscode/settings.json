@@ -51,6 +51,13 @@
     "explorer.confirmDragAndDrop": false,
     "vim.highlightedyank.enable": true,
     "vim.leader": "<Space>",
+    "editor.rulers": [
+        80
+    ],
+    "[markdown]": {
+        "editor.rulers": []
+    },
+    "vim.surround": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
